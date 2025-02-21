@@ -27,7 +27,7 @@ Built with privacy and scalability in mind, this system replaces manual check-in
 ## 🧩 System Architecture  
 
 ### Components  
-1. **Admin Dashboard** (Streamlit/Gradio):  
+1. **Admin Dashboard** (Streamlit):  
    - Manage employee face encodings and Supabase data.  
    - Visualize entry logs with filters.  
 2. **Recognition Service** (Python/OpenCV):  
@@ -93,7 +93,7 @@ SUPABASE_KEY=your-anon-key
 | Component               | Tools/Libraries                                   |  
 |-------------------------|---------------------------------------------------|  
 | **Face Recognition**    | `face_recognition` (Dlib), OpenCV                 |  
-| **Admin Dashboard**     | Streamlit (or Gradio)                             |  
+| **Admin Dashboard**     | Streamlit                                         |  
 | **Database**            | Supabase (PostgreSQL)                             |  
 | **Backend**             | Python, NumPy                                     |  
 | **Alternatives**        | Replace `face_recognition` with DeepFace/InsightFace |  
