@@ -25,7 +25,6 @@ Built with privacy and scalability in mind, this system replaces manual check-in
 ---
 
 ## 🧩 System Architecture  
-![Architecture](https://i.imgur.com/ABC123.png)  
 
 ### Components  
 1. **Admin Dashboard** (Streamlit/Gradio):  
@@ -117,11 +116,3 @@ MIT License. See [LICENSE](LICENSE).
 ## 🙏 Acknowledgements  
 - [Face Recognition Library](https://github.com/ageitgey/face_recognition) by Adam Geitgey.  
 - Supabase for scalable database infrastructure.  
-
----
-
-For detailed API docs or troubleshooting, visit the [Wiki](https://github.com/yourusername/FacePass/wiki).  
-
----
-
-This README highlights the modular architecture, Supabase integration, and admin/end-user separation. Adjust the tech stack or instructions based on whether you choose Streamlit vs. Gradio or alternate face recognition libraries.
